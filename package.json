@@ -1,0 +1,21 @@
+{
+  "name": "view360-mike",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html static/**/*"
+  },
+  "dependencies": {
+    "parcel": "1.9.7",
+    "@egjs/view360": "3.6.4",
+    "sweetalert2": "11.7.28"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
